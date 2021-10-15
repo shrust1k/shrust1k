@@ -22,7 +22,7 @@ def append(expense, category):
                 swriter.writerow([expense, time(0), time(1), category])
                 break
 
-
+#additional code that I don't use, but It can help in future
 def empty_cell():
     f = open("mtable.csv", "w", newline="")
     writer = csv.writer(f, delimiter=";")
